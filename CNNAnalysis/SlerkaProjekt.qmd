@@ -33,14 +33,14 @@ parsedDt
 Alternative:
 
 ```{r}
-parsedDt <- readRDS(here("parsedDB_WebscrapingCNN"))
+parsedDt <- readRDS(here("CNNAnalysis/parsedDB_WebscrapingCNN"))
 parsedDt
 ```
 
 As we can see, we don't realy see the articel text (the last column "liveBlogUpdate") we need to unnest the data and fix the column names while we are at it.
 
 ```{r}
-blogPostsExpanded <- parsedDb %>%
+blogPostsExpanded <- parsedDt %>%
   unnest(cols = c(liveBlogUpdate), names_sep = "_blog") %>% 
   rename_with(~ str_replace_all(.x, "[@\\$]", "")) %>% 
   select(mainEntityOfPage:datePublished, author:liveBlogUpdate_blogheadline, liveBlogUpdate_blogauthor:liveBlogUpdate_blogarticleBody)
@@ -62,8 +62,6 @@ blogTEI <- blogPostsExpanded %>%
 description <- paste0("A TEI corpus containg ", length(blogTEI), " live blogpost from CNN about mass shootings.")
 
 prague <- generateTeiCorpus(MetadataColumn = blogTEI$MetadataColumn, TextColumn = blogTEI$TextColumn, MetadataSting = description)
-
-prague
 ```
 
 ## Analysis in R
