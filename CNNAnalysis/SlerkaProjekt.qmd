@@ -18,7 +18,7 @@ library(tidyverse)
 library(jsonlite)
 library(janitor)
 library(here)
-source(here("helperCNNAnalysis.r"))
+source(here("CNNAnalysis/helperCNNAnalysis.R"))
 ```
 
 Now we can use them to read and parse the HTML of the CNN live-blogs. This may take some time so lets save it for later. If the code should be broken I have provided my own webscrape from 28.02.2024.
