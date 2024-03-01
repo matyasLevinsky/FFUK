@@ -1,10 +1,21 @@
+---
+format: 
+  html:
+    df-print: paged
+    toc: true
+    fig-width: 9
+    fig-height: 6
+---
+
+[**Home**](index.md)
+
 # Analyzing the CNN coverage of the Prague University shooting
 
 Given that the University shooting that happened on the 21 December 2023 was unprecedented in Czech history, I wondered whether it would be reflected as such in american media that has grown increasingly desensitized to news of mass shootings.
 
 #### Resources used
 
-I used the web-scraping tutorial provided by renatatopinkova and the book *Text Mining with R* by Julia Silge and David Robinson. ChatGPT-4 and its internal module R-Guru were used for troubleshooting.
+I used the web-scraping tutorial provided by [renatatopinkova](https://renatatopinkova.github.io/) and the book [*Text Mining with R*](https://www.tidytextmining.com/) by [Julia Silge](https://juliasilge.com/) and [David Robinson](https://www.rstudio.com/authors/david-robinson/). ChatGPT-4 and its internal module R-Guru were used for troubleshooting.
 
 ## Getting the data
 
@@ -13,6 +24,7 @@ I wanted to compare the mass shooting to comparable reporting about mass shootin
 I created a list of the necessary URLs and a couple of helper functions: `readUrlList`, `parseUrlList` and `generateTeiCorpus`. They are simple for-loops that do what their name suggest. Let's load them together with the packages we will need.
 
 ```{r}
+#| warning: false
 library(rvest)
 library(tidyverse)
 library(jsonlite)
@@ -24,8 +36,9 @@ source(here("CNNAnalysis/helperCNNAnalysis.R"))
 Now we can use them to read and parse the HTML of the CNN live-blogs. This may take some time so lets save it for later. If the code should be broken I have provided my own webscrape from 28.02.2024.
 
 ```{r}
-htmlList <- readUrlList(urlList)
-parsedDt <- parseUrlList(htmlList)
+#| output: false
+htmlList <- readUrlList(urlList, silent = T)
+parsedDt <- parseUrlList(htmlList, silent = T)
 saveRDS(parsedDt, file = "parsedDt_WebscrapingCNN")
 parsedDt
 ```
@@ -61,7 +74,7 @@ blogTEI <- blogPostsExpanded %>%
 
 description <- paste0("A TEI corpus containg ", length(blogTEI), " live blogpost from CNN about mass shootings.")
 
-prague <- generateTeiCorpus(MetadataColumn = blogTEI$MetadataColumn, TextColumn = blogTEI$TextColumn, MetadataSting = description)
+prague <- generateTeiCorpus(MetadataColumn = blogTEI$MetadataColumn, TextColumn = blogTEI$TextColumn, MetadataSting = description, silent = T)
 ```
 
 ## Analysis in R
@@ -69,6 +82,7 @@ prague <- generateTeiCorpus(MetadataColumn = blogTEI$MetadataColumn, TextColumn 
 If we want to keep analyzing in R we have multiple options. I would refer you to the great book *'Text Mining with R'*. Let's use the `tidytext` and `textdata` packages to do a simple sentiment analysis. First we need to shape our data accoringly.
 
 ```{r}
+#| warning: false
 library(tidytext)
 library(textdata)
 
@@ -138,6 +152,7 @@ ggplot(articlesSentimentLong) +
 Latent Dirichlet allocation (LDA) is a particularly popular method for fitting a topic model. It treats each document as a mixture of topics, and each topic as a mixture of words. We will use it to give some oomph to our analysis. For that we will be using the package `topicmodels`. We will also have to adapt the shape of our data:
 
 ```{r}
+#| warning: false
 library(topicmodels)
 
 removeWords <- c("cnn", "p.m")
@@ -212,4 +227,9 @@ separatedGamma %>%
 
 Looking at the graph we can clearly see that there are 3 Events with significantly lower mis- attribution of articles/headlines they are: The Farmington New Mexico shooting, the judgment against Jennifer Crumbley and the Prague university shooting.
 
+## Conlusion
+
 The uniqueness of these three events is understandable; the shooting in Farmington was unique in the age of its victims (73-97) and the method of its perpetrator, the case against Jenifer Crumbley was poised to set a precedent in the USA (by now it has set it already) and the shooting in Prague has shown the danger of exporting the motivations and conditions of mass shooting from the USA into other countries with similar cultural contexts.
+
+[**Home**](index.md)
+

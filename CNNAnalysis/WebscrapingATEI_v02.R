@@ -12,18 +12,18 @@ library(janitor)
 # Load data
 urlList <- c("https://edition.cnn.com/europe/live-news/prague-shooting-charles-university-12-21-23/index.html", "https://edition.cnn.com/us/live-news/lewiston-maine-shootings-active-shooter-10-25-23/index.html", "https://edition.cnn.com/us/live-news/farmington-new-mexico-shooting-05-16-23/index.html", "https://edition.cnn.com/us/live-news/nashville-shooting-covenant-school-03-27-23/index.html", "https://edition.cnn.com/us/live-news/unlv-shooting-12-06-23/index.html", "https://edition.cnn.com/us/live-news/kansas-city-chiefs-super-bowl-shooting-02-15-24/index.html", "https://edition.cnn.com/us/live-news/atlanta-midtown-shooting/index.html", "https://edition.cnn.com/us/live-news/louisville-kentucky-shooting-04-11-23/index.html?tab=all", "https://edition.cnn.com/us/live-news/oxford-shooting-jennifer-crumbley-trial-verdict/index.html", "https://edition.cnn.com/us/live-news/kansas-city-chiefs-parade-shooting-02-14-24/index.html", "https://edition.cnn.com/us/live-news/louisville-kentucky-shooting-04-10-23/index.html", "https://edition.cnn.com/us/live-news/lewiston-maine-shootings-active-shooter-10-25-23/index.html", "https://edition.cnn.com/us/live-news/allen-texas-mall-shooting-news-05-07-23/index.html")
 
-readUrlList <- function(urlList) {
+readUrlList <- function(urlList, silent = FALSE) {
   tmp <- vector(mode = "list", length = length(urlList))
-  pb <- txtProgressBar(min = 0, max = length(urlList), style = 3)
+  if(silent == F) pb <- txtProgressBar(min = 0, max = length(urlList), style = 3)
   
   for (i in 1:length(urlList)) {
     tmp[[i]] <- read_html(urlList[[i]])
-    setTxtProgressBar(pb, i)
+    if(silent == F) setTxtProgressBar(pb, i)
   }
   return(tmp)
 }
 
-# htmlList <- readUrlList(urlList)
+htmlList <- readUrlList(urlList, silent = T)
 
 parseUrlList <- function(htmlList) {
   tmp <- vector(mode = "list", length = length(htmlList))

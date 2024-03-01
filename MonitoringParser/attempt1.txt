@@ -1,0 +1,3556 @@
+{
+    "feed_stories": [
+        {
+            "article_id": 1507005545,
+            "token": "e84c44cd18cc0e8f2998",
+            "news_source": {
+                "id": 33298,
+                "name": "cnn.iprima.cz",
+                "publisher": {
+                    "id": 435,
+                    "name": "FTV Prima, spol. s r.o.",
+                    "country": "cz",
+                    "reg_no": "48115908",
+                    "street": "Vinohradská 3217/167",
+                    "municipality": "Praha",
+                    "postal_code": "10000"
+                },
+                "category": {
+                    "id": 1,
+                    "name": "Zprávy / Politika",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://cnn.iprima.cz/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/33298.png",
+                "monthly_sessions": 14647751,
+                "monthly_ru": 2732460,
+                "daily_ru": 536738,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "cnn.iprima.cz",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Dlužníci často nevidí problém u sebe, míní expertka. Které skupiny jsou nejzranitelnější?",
+            "url": "https://cnn.iprima.cz/dluznici-casto-nevidi-problem-u-sebe-mini-expertka-ktere-skupiny-jsou-nejzranitelnejsi-426466",
+            "public_access_url": "https://app.mediaboard.com/article/1507005545/e84c44cd18cc0e8f2998?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNzAwNTU0NSwidGlkIjo2NTI0OH0.A5e_1dOiDKVeTNs8gXW3iMsdAPxlsWO8qlpStfVwrks",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://cnn.iprima.cz/dluznici-casto-nevidi-problem-u-sebe-mini-expertka-ktere-skupiny-jsou-nejzranitelnejsi-426466",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1507005545-bed87105f478f24235f0",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1507005545-4523d9117d8ff6a680bb/",
+            "published": "2024-03-01T19:48:17+01:00",
+            "authors": [
+                {
+                    "id": "I7HplIAeC9lFJFY9",
+                    "name": "Marek Pausz",
+                    "country": 1,
+                    "author_type": 1,
+                    "photo_url": {
+                        "small": "",
+                        "large": ""
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                }
+            ],
+            "section": "Ekonomika",
+            "perex": "&hellip;<span class=\"article-hl\">Sociolog</span> ze společnosti Člověk v tísni Daniel Hůle popsal, jakými faktory jsou v otázce zadlužování ohroženi mladí lidé či senioři.\n\nZ aplikování nárokové ekonomiky vzniká podle Tatýrkové množství krátkodobých půjček. „Ze stížností, které k nám docházejí, vyplývá, že dlužníci často nevidí problém u sebe, ale spíše u všech ostatních.&hellip;",
+            "language": "cs",
+            "word_count": 305,
+            "text_relevance": 28.185982,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 536738,
+            "GRP": 5.963755555555555,
+            "OTS": 0.059637555555555555,
+            "AVE": 30000,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458294,
+                    "keyword": "exekuce (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Exekuce",
+                    "display_keyword": "Exekuce",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506946497,
+            "token": "53a679e108b4420cc68f",
+            "news_source": {
+                "id": 7010,
+                "name": "lidovky.cz/byznys",
+                "publisher": {
+                    "id": 4,
+                    "name": "MAFRA, a.s.",
+                    "country": "cz",
+                    "reg_no": "45313351",
+                    "street": "Karla Engliše 519/11",
+                    "municipality": "Praha",
+                    "postal_code": "15000"
+                },
+                "category": {
+                    "id": 18,
+                    "name": "Podnikání / Marketing / PR",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.lidovky.cz/byznys/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/7010.png",
+                "monthly_sessions": 4991947,
+                "monthly_ru": 1631687,
+                "daily_ru": 141720,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "lidovky.cz/byznys",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "PŘEHLEDNĚ: Jurečkova reforma důchodů v bodech. Co všechno nová pravidla přináší?",
+            "url": "https://www.lidovky.cz/byznys/jureckova-reforma-duchodu-v-bodech-co-vsechno-nova-pravidla-prinasi.A240301_192756_ln_ekonomika_rkj",
+            "public_access_url": "https://app.mediaboard.com/article/1506946497/53a679e108b4420cc68f?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjk0NjQ5NywidGlkIjo3MjcwNn0.iRDITF5CkkT8fi9m547Qt08QvKWEzMTOpJvVk0bfMTs",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.lidovky.cz/byznys/jureckova-reforma-duchodu-v-bodech-co-vsechno-nova-pravidla-prinasi.A240301_192756_ln_ekonomika_rkj",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506946497-a0f81b43d4fe0c5e9234",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506946497-2f8831840049c56059a4/",
+            "published": "2024-03-01T19:29:00+01:00",
+            "authors": [
+                {
+                    "id": "OfSIe720tq9juTjf",
+                    "name": "Miroslav Petr",
+                    "country": 1,
+                    "author_type": 1,
+                    "photo_url": {
+                        "small": "https://media.mediaboard.com/author/p/15092/OfSIe720tq9juTjf/2/",
+                        "large": "https://media.mediaboard.com/author/p/15092/OfSIe720tq9juTjf/3/"
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                }
+            ],
+            "section": "Události - Ekonomika",
+            "perex": "&hellip;Pro stanovení důchodového věku se bude vycházet z údajů Českého statistického úřadu o střední délce života v 50 letech, přičemž důchodový věk se stanoví vždy pro osoby, které v <span class=\"article-hl\">daném</span> roce dosáhnou 50 let (třeba statistické údaje za rok 2024 budou použity pro stanovení věku osob narozených v roce 1974).&hellip;",
+            "language": "cs",
+            "word_count": 761,
+            "text_relevance": 24.521933,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 3,
+            "sentiment": {
+                "id": 3,
+                "text": "Neutrální",
+                "color": "#7CB5EC"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 141720,
+            "GRP": 1.5746666666666667,
+            "OTS": 0.015746666666666666,
+            "AVE": 35000,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510592,
+                    "keyword": "daňová+reforma OR reforma+zdanění OR reforma+daní OR úprava+daní OR (daně AND \"!OSVČ\")",
+                    "name": "",
+                    "display_keyword": "daňová reforma OR reforma zdanění OR reforma daní OR úprava daní OR (daně OSVČ)",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506946497,
+            "token": "53a679e108b4420cc68f",
+            "news_source": {
+                "id": 7010,
+                "name": "lidovky.cz/byznys",
+                "publisher": {
+                    "id": 4,
+                    "name": "MAFRA, a.s.",
+                    "country": "cz",
+                    "reg_no": "45313351",
+                    "street": "Karla Engliše 519/11",
+                    "municipality": "Praha",
+                    "postal_code": "15000"
+                },
+                "category": {
+                    "id": 18,
+                    "name": "Podnikání / Marketing / PR",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.lidovky.cz/byznys/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/7010.png",
+                "monthly_sessions": 4991947,
+                "monthly_ru": 1631687,
+                "daily_ru": 141720,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "lidovky.cz/byznys",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "PŘEHLEDNĚ: Jurečkova reforma důchodů v bodech. Co všechno nová pravidla přináší?",
+            "url": "https://www.lidovky.cz/byznys/jureckova-reforma-duchodu-v-bodech-co-vsechno-nova-pravidla-prinasi.A240301_192756_ln_ekonomika_rkj",
+            "public_access_url": "https://app.mediaboard.com/article/1506946497/53a679e108b4420cc68f?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjk0NjQ5NywidGlkIjo2NTI0OH0.5Z98daPbv5i1hlrFXxdKAqG5zolhcXkgmZO_BMDLTq4",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.lidovky.cz/byznys/jureckova-reforma-duchodu-v-bodech-co-vsechno-nova-pravidla-prinasi.A240301_192756_ln_ekonomika_rkj",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506946497-a0f81b43d4fe0c5e9234",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506946497-2f8831840049c56059a4/",
+            "published": "2024-03-01T19:29:00+01:00",
+            "authors": [
+                {
+                    "id": "OfSIe720tq9juTjf",
+                    "name": "Miroslav Petr",
+                    "country": 1,
+                    "author_type": 1,
+                    "photo_url": {
+                        "small": "https://media.mediaboard.com/author/p/15092/OfSIe720tq9juTjf/2/",
+                        "large": "https://media.mediaboard.com/author/p/15092/OfSIe720tq9juTjf/3/"
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                }
+            ],
+            "section": "Události - Ekonomika",
+            "perex": "&hellip;PŘEHLEDNĚ: Jurečkova <span class=\"article-hl\">reforma</span> důchodů v bodech. Co všechno nová pravidla přináší?\n\nNa vládu v pátek zamířil z ministerstva práce a sociálních věcí (MPSV) největší balík navržených změn parametrů důchodového systému. Do poloviny roku by se návrhem měli zabývat poslanci a následně Senát.&hellip;",
+            "language": "cs",
+            "word_count": 761,
+            "text_relevance": 27.775272,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 3,
+            "sentiment": {
+                "id": 3,
+                "text": "Neutrální",
+                "color": "#7CB5EC"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 141720,
+            "GRP": 1.5746666666666667,
+            "OTS": 0.015746666666666666,
+            "AVE": 35000,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458298,
+                    "keyword": "\"OSVČ\" (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "OSVČ",
+                    "display_keyword": "OSVČ",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506897284,
+            "token": "a4cfefad3962cc0b752a",
+            "news_source": {
+                "id": 53,
+                "name": "tyden.cz",
+                "publisher": {
+                    "id": 5,
+                    "name": "EMPRESA MEDIA, a.s.",
+                    "country": "cz",
+                    "reg_no": "26418011",
+                    "street": "Mikuleckého 1309/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 1,
+                    "name": "Zprávy / Politika",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.tyden.cz/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/53.png",
+                "monthly_sessions": 838903,
+                "monthly_ru": 701080,
+                "daily_ru": 10407,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "tyden.cz",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Rozpočtový schodek v únoru vzrostl na 102,5 mld. Kč z lednových 26 mld. Kč",
+            "url": "https://www.tyden.cz/rubriky/byznys/rozpoctovy-schodek-v-unoru-vzrostl-na-102-5-mld-kc-z-lednovych-26-mld-kc_564774.html",
+            "public_access_url": "https://app.mediaboard.com/article/1506897284/a4cfefad3962cc0b752a?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjg5NzI4NCwidGlkIjo2NTI0OH0._pmYmhCl9oWws_L0ZGl9nQMesrhSOUpdnyUzf2Oajp0",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.tyden.cz/rubriky/byznys/rozpoctovy-schodek-v-unoru-vzrostl-na-102-5-mld-kc-z-lednovych-26-mld-kc_564774.html",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506897284-cce1b6f508d4a68a2369",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506897284-29e128ece8a2fd2a5f08/",
+            "published": "2024-03-01T19:10:00+01:00",
+            "authors": [
+                {
+                    "id": "jQLexl01OoG99ahT",
+                    "name": "ČTK",
+                    "country": 1,
+                    "author_type": 2,
+                    "photo_url": {
+                        "small": "https://media.mediaboard.com/author/p/15092/jQLexl01OoG99ahT/2/",
+                        "large": "https://media.mediaboard.com/author/p/15092/jQLexl01OoG99ahT/3/"
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                }
+            ],
+            "section": "Byznys",
+            "perex": "&hellip;Na výdajové straně rozpočtu byly největší položkou <span class=\"article-hl\">sociální</span> <span class=\"article-hl\">dávky</span>, které dosáhly 153,7 miliardy korun, meziročně o 6,8 procenta víc. Z toho 121,4 miliardy korun tvořily důchody, jejichž objem proti loňsku narostl o 7,7 procenta. O 26,1 procenta se zvýšily transfery příspěvkovým organizacím, které dosáhly 29,8 miliardy korun.&hellip;",
+            "language": "cs",
+            "word_count": 532,
+            "text_relevance": 32.874367,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 4,
+            "sentiment": {
+                "id": 4,
+                "text": "Ambivalentní",
+                "color": "#F4C63F"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 10407,
+            "GRP": 0.11563333333333334,
+            "OTS": 0.0011563333333333334,
+            "AVE": 22897.96519113058,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458289,
+                    "keyword": "sociální+dávka (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Sociální dávky",
+                    "display_keyword": "Sociální dávky",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1507041567,
+            "token": "4f958ffc9a3e5c804d29",
+            "news_source": {
+                "id": 2901,
+                "name": "Události",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 105,
+                    "name": "ČT1",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/1097181328",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/2901.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Události",
+            "identical_articles": [],
+            "article_type_id": 201,
+            "article_type": {
+                "id": 201,
+                "text": "Voice-to-text celý pořad",
+                "color": null
+            },
+            "title": "Události",
+            "url": "",
+            "public_access_url": "https://app.mediaboard.com/article/1507041567/4f958ffc9a3e5c804d29?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNzA0MTU2NywidGlkIjo3MjcwNn0.xOnKVS_PgMlHGLYouT4jt2vfRkjtn-zShmMzoLDe4tc",
+            "pdf_url": "",
+            "proxy_url": null,
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T19:00:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Pozitivně vidí <span class=\"article-hl\">růst</span> <span class=\"article-hl\">ekonomiky</span> pro letošní rok významné finanční instituce. Tempo by ale mělo být pomalé. Bankovní asociace a ministerstvo financí počítají s růstem přes jedno procento, centrální banka s poloviční hodnotou.&hellip;",
+            "language": "cs",
+            "word_count": 7363,
+            "text_relevance": 17.78952,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": null,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 3435,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 0,
+            "sentiment": {
+                "id": 0,
+                "text": "Neznámý",
+                "color": "#888888"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": true,
+            "is_ocr_transcript": false,
+            "can_summarize": false,
+            "embed_type": null,
+            "reach": 633824,
+            "GRP": 7.042488888888889,
+            "OTS": 0.0704248888888889,
+            "AVE": 37562352.91056,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510594,
+                    "keyword": "růst+ekonomiky OR prorůstová+politika OR \"!NERV\"",
+                    "name": "",
+                    "display_keyword": "růst ekonomiky OR prorůstová politika OR NERV",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1507041567,
+            "token": "4f958ffc9a3e5c804d29",
+            "news_source": {
+                "id": 2901,
+                "name": "Události",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 105,
+                    "name": "ČT1",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/1097181328",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/2901.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Události",
+            "identical_articles": [],
+            "article_type_id": 201,
+            "article_type": {
+                "id": 201,
+                "text": "Voice-to-text celý pořad",
+                "color": null
+            },
+            "title": "Události",
+            "url": "",
+            "public_access_url": "https://app.mediaboard.com/article/1507041567/4f958ffc9a3e5c804d29?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNzA0MTU2NywidGlkIjo2NTI0OH0.b9JhjyADxDoh1O5l9jAX3ku8qF5dWSRvy3F-7Z7uCo4",
+            "pdf_url": "",
+            "proxy_url": null,
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T19:00:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Jsou parametry, bez nichž by důchodová <span class=\"article-hl\">reforma</span> neměla smysl. Když se nám mění poměr pracujících a důchodců, na to musí ten systém nějakým způsobem reagovat. Vláda by mohla důchodovou <span class=\"article-hl\">reformu</span> schválit na přelomu března a dubna. Během jara začnou projednávat poslanci. Pavla Daňková, Petr Vašek, ČT.&hellip;",
+            "language": "cs",
+            "word_count": 7363,
+            "text_relevance": 36.691612,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": null,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 3435,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 0,
+            "sentiment": {
+                "id": 0,
+                "text": "Neznámý",
+                "color": "#888888"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": true,
+            "is_ocr_transcript": false,
+            "can_summarize": false,
+            "embed_type": null,
+            "reach": 633824,
+            "GRP": 7.042488888888889,
+            "OTS": 0.0704248888888889,
+            "AVE": 37562352.91056,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458299,
+                    "keyword": "střední+škola (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Střední školy",
+                    "display_keyword": "Střední školy",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506840708,
+            "token": "aae535df54fd3d15b71a",
+            "news_source": {
+                "id": 54,
+                "name": "lidovky.cz",
+                "publisher": {
+                    "id": 4,
+                    "name": "MAFRA, a.s.",
+                    "country": "cz",
+                    "reg_no": "45313351",
+                    "street": "Karla Engliše 519/11",
+                    "municipality": "Praha",
+                    "postal_code": "15000"
+                },
+                "category": {
+                    "id": 1,
+                    "name": "Zprávy / Politika",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.lidovky.cz/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/54.png",
+                "monthly_sessions": 4991947,
+                "monthly_ru": 1631687,
+                "daily_ru": 141720,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "lidovky.cz",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Druhý termín, druhé zdržení. Systém přihlášek na střední školy řeší další problém",
+            "url": "https://www.lidovky.cz/domov/termin-stredni-skoly-prihlasky-problem-datum-odlozeni.A240301_171300_ln_domov_rkj",
+            "public_access_url": "https://app.mediaboard.com/article/1506840708/aae535df54fd3d15b71a?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjg0MDcwOCwidGlkIjo3MjcwNn0._VnkF3uu1JTe4uPiS_GKRhnDRElOKnUhSIZSVpYhqWM",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.lidovky.cz/domov/termin-stredni-skoly-prihlasky-problem-datum-odlozeni.A240301_171300_ln_domov_rkj",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506840708-7d6a3ddfcdebd24bbb93",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506840708-ffd07dea2f1626f6dbb4/",
+            "published": "2024-03-01T18:46:00+01:00",
+            "authors": [
+                {
+                    "id": "b7hxRoCabQmqKg6B",
+                    "name": "Lukáš Karbulka",
+                    "country": 1,
+                    "author_type": 1,
+                    "photo_url": {
+                        "small": "",
+                        "large": ""
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                }
+            ],
+            "section": "Události - Česko",
+            "perex": "&hellip;<span class=\"article-hl\">Digitalizace</span> je prvním krokem ke spravedlivějším přijímačkám\n\nUž tak šibeniční termín pro dokončení systému v říjnu zkomplikovalo zrušení veřejného výběrového řízení.&hellip;",
+            "language": "cs",
+            "word_count": 1131,
+            "text_relevance": 22.530798,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 141720,
+            "GRP": 1.5746666666666667,
+            "OTS": 0.015746666666666666,
+            "AVE": 35000,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510603,
+                    "keyword": "e-government OR digitalizace státu",
+                    "name": "",
+                    "display_keyword": "e government OR digitalizace státu",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506812339,
+            "token": "b9b8055c3b14164382b4",
+            "news_source": {
+                "id": 319,
+                "name": "businessinfo.cz",
+                "publisher": {
+                    "id": 591,
+                    "name": "Česká agentura na podporu obchodu",
+                    "country": "cz",
+                    "reg_no": "00001171",
+                    "street": "Štěpánská 567/15",
+                    "municipality": "Praha",
+                    "postal_code": "12000"
+                },
+                "category": {
+                    "id": 18,
+                    "name": "Podnikání / Marketing / PR",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.businessinfo.cz/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/319.png",
+                "monthly_sessions": 225376,
+                "monthly_ru": 121737,
+                "daily_ru": 8515,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "businessinfo.cz",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Česká ekonomika loni klesla o 0,4 procenta, upřesnil ČSÚ",
+            "url": "https://www.businessinfo.cz/clanky/ceska-ekonomika-loni-klesla-o-04-procenta-upresnil-csu/",
+            "public_access_url": "https://app.mediaboard.com/article/1506812339/b9b8055c3b14164382b4?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjgxMjMzOSwidGlkIjo3MjcwNn0.XOSNG7XTRzuAES_Yllk965-DMERbptPJ6Uvdzur98Mw",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.businessinfo.cz/clanky/ceska-ekonomika-loni-klesla-o-04-procenta-upresnil-csu/",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506812339-5b830e4096d8cf4f3d33",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506812339-cda5693f85a2786e2581/",
+            "published": "2024-03-01T18:43:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;K <span class=\"article-hl\">růstu</span> <span class=\"article-hl\">ekonomiky</span> by měla přispívat spotřeba domácností, když zpomalení spotřebitelské inflace lehce nad dvě procenta vrátí reálný růst mezd do kladných hodnot. Mírné pozitivní příspěvky lze podle Nováka očekávat i od čistého exportu a investic.&hellip;",
+            "language": "cs",
+            "word_count": 1081,
+            "text_relevance": 16.842123,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "54 minut",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 8515,
+            "GRP": 0.09461111111111112,
+            "OTS": 0.0009461111111111112,
+            "AVE": 14090.167077993307,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510594,
+                    "keyword": "růst+ekonomiky OR prorůstová+politika OR \"!NERV\"",
+                    "name": "",
+                    "display_keyword": "růst ekonomiky OR prorůstová politika OR NERV",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506832351,
+            "token": "5a8b0cd3e79bcce077bf",
+            "news_source": {
+                "id": 6310,
+                "name": "Interview ČT24",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 106,
+                    "name": "ČT24",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/10095426857",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/6310.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Interview ČT24",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Interview ČT24: 1. březen",
+            "url": "https://www.ceskatelevize.cz/porady/10095426857-interview-ct24/224411058040301/",
+            "public_access_url": "https://app.mediaboard.com/article/1506832351/5a8b0cd3e79bcce077bf?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjgzMjM1MSwidGlkIjo2NTI0OH0.tDkz6l-yZwsBjBvaNlXtBrSm8i-3aM1rqUIJGnSccCg",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.ceskatelevize.cz/porady/10095426857-interview-ct24/224411058040301/",
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:28:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Proto naše evropské metody, evropská rétorika, dopadá na neúrodnou půdu, lidé, kteří se pokoušeli tam dělat nějaké <span class=\"article-hl\">reformy</span>, jak jste tady hovořil o těch semínkách demokracie, evropská semínka v té naší půdě okamžitě zahynou.\n\nNemají okamžitě šanci.&hellip;",
+            "language": "cs",
+            "word_count": 3280,
+            "text_relevance": 25.37728,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 2,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 1670,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 96420,
+            "GRP": 1.0713333333333332,
+            "OTS": 0.010713333333333332,
+            "AVE": 2694456.8999999994,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458296,
+                    "keyword": "vzdělávání (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Vzdělávání",
+                    "display_keyword": "Vzdělávání",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506742776,
+            "token": "3239d7a45e6f08a477d9",
+            "news_source": {
+                "id": 119707,
+                "name": "Studio ČT24",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 106,
+                    "name": "ČT24",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/10101491767",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/119707.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Studio ČT24",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Studio ČT24: 1. březen",
+            "url": "https://www.ceskatelevize.cz/porady/10101491767-studio-ct24/224411058350301/",
+            "public_access_url": "https://app.mediaboard.com/article/1506742776/3239d7a45e6f08a477d9?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjc0Mjc3NiwidGlkIjo3MjcwNn0.tNhyF3QhKXvKR2fF9qYPTW9kcrlQpWB0NkB_ZsJvdew",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.ceskatelevize.cz/porady/10101491767-studio-ct24/224411058350301/",
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:03:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Podle mě žádná penzijní reforma se nedá provést bez <span class=\"article-hl\">reformy</span> <span class=\"article-hl\">daňové</span>.&hellip;",
+            "language": "cs",
+            "word_count": 2718,
+            "text_relevance": 21.215693,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 1508,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 93700,
+            "GRP": 1.041111111111111,
+            "OTS": 0.01041111111111111,
+            "AVE": 2424487.4999999995,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510592,
+                    "keyword": "daňová+reforma OR reforma+zdanění OR reforma+daní OR úprava+daní OR (daně AND \"!OSVČ\")",
+                    "name": "",
+                    "display_keyword": "daňová reforma OR reforma zdanění OR reforma daní OR úprava daní OR (daně OSVČ)",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506742776,
+            "token": "3239d7a45e6f08a477d9",
+            "news_source": {
+                "id": 119707,
+                "name": "Studio ČT24",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 106,
+                    "name": "ČT24",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/10101491767",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/119707.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Studio ČT24",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Studio ČT24: 1. březen",
+            "url": "https://www.ceskatelevize.cz/porady/10101491767-studio-ct24/224411058350301/",
+            "public_access_url": "https://app.mediaboard.com/article/1506742776/3239d7a45e6f08a477d9?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjc0Mjc3NiwidGlkIjo2NTI0OH0.9sGD5mFrmWYdJzpuH9q7u6a_Nj5YeHNbYgr3JZ_rc6E",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.ceskatelevize.cz/porady/10101491767-studio-ct24/224411058350301/",
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:03:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Ať už v rámci tripartity, nebo <span class=\"article-hl\">sociologů</span>, demografů, statistiků, <span class=\"article-hl\">ekonomů</span>, zkrátka vidím tam spoustu slabých míst,.\n\n-Před půlhodinou byl hostem Miloš Nový.\n\nZ TOP 09. Místopředseda rozpočtového výboru.\n\nTen říkal, že co se týká TOP 09, tak má Marian Jurečka podporu.\n\nTěchto změn.\n\nMá to skutečně Marian Jurečka tak jednoznačné?&hellip;",
+            "language": "cs",
+            "word_count": 2718,
+            "text_relevance": 44.41411,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 1508,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 93700,
+            "GRP": 1.041111111111111,
+            "OTS": 0.01041111111111111,
+            "AVE": 2424487.4999999995,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458297,
+                    "keyword": "reforma+daní (výzkum OR sociolog OR sociologie OR ekonom)",
+                    "name": "Reforma daní",
+                    "display_keyword": "Reforma daní",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506741435,
+            "token": "1bb8b682142d4accd73f",
+            "news_source": {
+                "id": 239568,
+                "name": "Události v regionech (Ostrava)",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 105,
+                    "name": "ČT1",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/10122978233-udalosti-v-regionech-ostrava/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/239568.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Události v regionech (Ostrava)",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Události v regionech (Ostrava): 1. březen",
+            "url": "https://www.ceskatelevize.cz/porady/10122978233-udalosti-v-regionech-ostrava/424231100030301/",
+            "public_access_url": "https://app.mediaboard.com/article/1506741435/1bb8b682142d4accd73f?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjc0MTQzNSwidGlkIjo2NTI0OH0.O_lMMEDAY5Ftgt5bkLOIGUNdRGYHiSNtXSCL8cgf1nk",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.ceskatelevize.cz/porady/10122978233-udalosti-v-regionech-ostrava/424231100030301/",
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:00:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Události v regionech (Ostrava): 1. březen\n\nNávrh zákona k <span class=\"article-hl\">reformě</span> penzí — Návrh důchodové <span class=\"article-hl\">reformy</span> — Omezení zubní pohotovosti v Olomouckém kraji — Vláda dá víc peněz venkovu — Olomouc chce úvěr 400 milionů — Roste počet kyberzločinů — Odstraňování produktů s látkou HHC z automatů — Ostravu trápí nedostačující turistické značení — Lyžování v Jeseníkách nabízejí&hellip;",
+            "language": "cs",
+            "word_count": 2727,
+            "text_relevance": 30.799942,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 1500,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 350562,
+            "GRP": 3.8951333333333333,
+            "OTS": 0.03895133333333333,
+            "AVE": 9070791.749999998,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458296,
+                    "keyword": "vzdělávání (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Vzdělávání",
+                    "display_keyword": "Vzdělávání",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506741430,
+            "token": "14f216c1b3c28feb59e4",
+            "news_source": {
+                "id": 6317,
+                "name": "Události v regionech (Praha)",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 105,
+                    "name": "ČT1",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/10118379000",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/6317.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Události v regionech (Praha)",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Události v regionech (Praha): 1. březen",
+            "url": "https://www.ceskatelevize.cz/porady/10118379000-udalosti-v-regionech-praha/224411000140301/",
+            "public_access_url": "https://app.mediaboard.com/article/1506741430/14f216c1b3c28feb59e4?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjc0MTQzMCwidGlkIjo2NTI0OH0.nxsJX7XhG2zlxTei3OSCDsOVK7Zz2x5XG0Wz_d_vWYA",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.ceskatelevize.cz/porady/10118379000-udalosti-v-regionech-praha/224411000140301/",
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:00:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Události v regionech (Praha): 1. březen\n\n&lt;m-stt&gt;\nUDÁLOSTI V REGIONECH Ministerstvo práce a sociálních věcí má hotový návrh důchodové <span class=\"article-hl\">reformy</span>.&hellip;",
+            "language": "cs",
+            "word_count": 2864,
+            "text_relevance": 27.244757,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 1479,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 350562,
+            "GRP": 3.8951333333333333,
+            "OTS": 0.03895133333333333,
+            "AVE": 9070791.749999998,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458296,
+                    "keyword": "vzdělávání (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Vzdělávání",
+                    "display_keyword": "Vzdělávání",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506790814,
+            "token": "bed0fe20470c81cf177f",
+            "news_source": {
+                "id": 69228,
+                "name": "Zvědátoři",
+                "publisher": null,
+                "category": {
+                    "id": 166,
+                    "name": "Věda",
+                    "category_type_id": 8,
+                    "category_type": {
+                        "id": 8,
+                        "text": "Podcasty",
+                        "shorttext": "Podcasty",
+                        "label": "Podcast",
+                        "color": "#199798",
+                        "fill_color": "#21B2B3"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://anchor.fm/s/3d2c64f0/podcast/rss",
+                "favicon_url": "",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Zvědátoři",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Estetika dezinformací - Zpátky mimo téma - 27. 11. 2020",
+            "url": "https://podcasters.spotify.com/pod/show/zvedatori/episodes/Estetika-dezinformac---Zptky-mimo-tma---27--11--2020-e2ges9e",
+            "public_access_url": "https://app.mediaboard.com/article/1506790814/bed0fe20470c81cf177f?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjc5MDgxNCwidGlkIjo2NTI0OH0.hX9awAFrj0vNqnTuz8qblmvXDBIksBJN6sO9Dqkk-f4",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://podcasters.spotify.com/pod/show/zvedatori/episodes/Estetika-dezinformac---Zptky-mimo-tma---27--11--2020-e2ges9e",
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:00:00+01:00",
+            "authors": [
+                {
+                    "id": "lsJFw7F0ufylMfvX",
+                    "name": "Patrik Kořenář",
+                    "country": 1,
+                    "author_type": 1,
+                    "photo_url": {
+                        "small": "",
+                        "large": ""
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                },
+                {
+                    "id": "9mO76ubyI09qU5QS",
+                    "name": "Martin Rota",
+                    "country": 1,
+                    "author_type": 1,
+                    "photo_url": {
+                        "small": "",
+                        "large": ""
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                }
+            ],
+            "section": "",
+            "perex": "&hellip;když jsou schopní se vyhnout tomu krveprolití ztrátě síle lidí prostředků všeho čte možná efektivnější způsob jak získat jak získat ekonomickou převahu nebo zabezpečit hodi i ale jednak jednak představuje kokos jestli by se mu a je pak odpoví na otázku kokos okey děkujeme za super česko kosy se duše dva nejhorší je že přitom množství článků co musí univerzita <span class=\"article-hl\">výzkum</span>&hellip;",
+            "language": "cs",
+            "word_count": 20021,
+            "text_relevance": 46.51023,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": null,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 7291,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 3,
+            "sentiment": {
+                "id": 3,
+                "text": "Neutrální",
+                "color": "#7CB5EC"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 0,
+            "GRP": 0,
+            "OTS": 0,
+            "AVE": 0,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458296,
+                    "keyword": "vzdělávání (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Vzdělávání",
+                    "display_keyword": "Vzdělávání",
+                    "is_highlight_only": false
+                },
+                {
+                    "id": 458298,
+                    "keyword": "\"OSVČ\" (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "OSVČ",
+                    "display_keyword": "OSVČ",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506784838,
+            "token": "78d17239b1789f459f94",
+            "news_source": {
+                "id": 239568,
+                "name": "Události v regionech (Ostrava)",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 105,
+                    "name": "ČT1",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/10122978233-udalosti-v-regionech-ostrava/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/239568.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Události v regionech (Ostrava)",
+            "identical_articles": [],
+            "article_type_id": 201,
+            "article_type": {
+                "id": 201,
+                "text": "Voice-to-text celý pořad",
+                "color": null
+            },
+            "title": "Události v regionech",
+            "url": "",
+            "public_access_url": "https://app.mediaboard.com/article/1506784838/78d17239b1789f459f94?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjc4NDgzOCwidGlkIjo2NTI0OH0.48SqcoLfNuKZH15HdYJqXnEzSWXUcHJ7GdGb33OJMxY",
+            "pdf_url": "",
+            "proxy_url": null,
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:00:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Ministerstvo práce představilo návrh zákona k <span class=\"article-hl\">reformě</span> penzí. Vedle konsolidačního balíčku je právě důchodová <span class=\"article-hl\">reforma</span> jedním z pilířů současné vlády. Návrh upravuje růst důchodového věku podle doby dožití. Minimální důchod ve výši 20 % průměrné mzdy či dřívější penzi pro náročné profese. Personalistům vadí, že zkušené pracovníky nebude mít kdo nahradit.&hellip;",
+            "language": "cs",
+            "word_count": 3074,
+            "text_relevance": 27.37453,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": null,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 1394,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 0,
+            "sentiment": {
+                "id": 0,
+                "text": "Neznámý",
+                "color": "#888888"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": true,
+            "is_ocr_transcript": false,
+            "can_summarize": false,
+            "embed_type": null,
+            "reach": 350562,
+            "GRP": 3.8951333333333333,
+            "OTS": 0.03895133333333333,
+            "AVE": 8430393.852449998,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458296,
+                    "keyword": "vzdělávání (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Vzdělávání",
+                    "display_keyword": "Vzdělávání",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506784615,
+            "token": "458ab3aa0d4d406e1de4",
+            "news_source": {
+                "id": 239567,
+                "name": "Události v regionech (jih a západ)",
+                "publisher": {
+                    "id": 553,
+                    "name": "ČESKÁ TELEVIZE",
+                    "country": "cz",
+                    "reg_no": "00027383",
+                    "street": "Na hřebenech II 1132/4",
+                    "municipality": "Praha",
+                    "postal_code": "14700"
+                },
+                "category": {
+                    "id": 105,
+                    "name": "ČT1",
+                    "category_type_id": 4,
+                    "category_type": {
+                        "id": 4,
+                        "text": "Televize",
+                        "shorttext": "Televize",
+                        "label": "TV",
+                        "color": "#FEBD35",
+                        "fill_color": "#FED172"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.ceskatelevize.cz/porady/15334114383-udalosti-v-regionech-jih-a-zapad/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/239567.png",
+                "monthly_sessions": null,
+                "monthly_ru": null,
+                "daily_ru": null,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "Události v regionech (jih a západ)",
+            "identical_articles": [],
+            "article_type_id": 201,
+            "article_type": {
+                "id": 201,
+                "text": "Voice-to-text celý pořad",
+                "color": null
+            },
+            "title": "Události v regionech",
+            "url": "",
+            "public_access_url": "https://app.mediaboard.com/article/1506784615/458ab3aa0d4d406e1de4?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjc4NDYxNSwidGlkIjo2NTI0OH0.UwGpy9B1WQ7WbbWlBbysUsRWEiTqP0VB_H0vIASxdoY",
+            "pdf_url": "",
+            "proxy_url": null,
+            "small_image_url": "",
+            "big_image_url": "",
+            "published": "2024-03-01T18:00:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Vývoj moderních technologií podle zaměstnavatelů vyžaduje změny ve školním <span class=\"article-hl\">vzdělávání</span>. Třeba společnosti Sokolovská uhelná chybí odborníci v moderní energetice, chemici nebo specialisté specialisté v oblasti solární energie.&hellip;",
+            "language": "cs",
+            "word_count": 3448,
+            "text_relevance": 46.594646,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": null,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": 1687,
+            "cpp_second": 1552.4999999999998,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 0,
+            "sentiment": {
+                "id": 0,
+                "text": "Neznámý",
+                "color": "#888888"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": true,
+            "is_ocr_transcript": false,
+            "can_summarize": false,
+            "embed_type": null,
+            "reach": 350562,
+            "GRP": 3.8951333333333333,
+            "OTS": 0.03895133333333333,
+            "AVE": 10206938.65266,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458296,
+                    "keyword": "vzdělávání (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Vzdělávání",
+                    "display_keyword": "Vzdělávání",
+                    "is_highlight_only": false
+                },
+                {
+                    "id": 458299,
+                    "keyword": "střední+škola (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Střední školy",
+                    "display_keyword": "Střední školy",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506637832,
+            "token": "c052a62a04da8e25f5b7",
+            "news_source": {
+                "id": 319,
+                "name": "businessinfo.cz",
+                "publisher": {
+                    "id": 591,
+                    "name": "Česká agentura na podporu obchodu",
+                    "country": "cz",
+                    "reg_no": "00001171",
+                    "street": "Štěpánská 567/15",
+                    "municipality": "Praha",
+                    "postal_code": "12000"
+                },
+                "category": {
+                    "id": 18,
+                    "name": "Podnikání / Marketing / PR",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://www.businessinfo.cz/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/319.png",
+                "monthly_sessions": 225376,
+                "monthly_ru": 121737,
+                "daily_ru": 8515,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "businessinfo.cz",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Deficit rozpočtu se do konce února vyšplhal na 102 miliardy, je nižší než loni",
+            "url": "https://www.businessinfo.cz/clanky/deficit-rozpoctu-se-do-konce-unora-vysplhal-na-102-miliardy-je-nizsi-nez-loni/",
+            "public_access_url": "https://app.mediaboard.com/article/1506637832/c052a62a04da8e25f5b7?topic_monitor=65248&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjYzNzgzMiwidGlkIjo2NTI0OH0.0qjNjqfB07STLzi08e3V9w-9nHlRuxvnO8S0dpG1HRc",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://www.businessinfo.cz/clanky/deficit-rozpoctu-se-do-konce-unora-vysplhal-na-102-miliardy-je-nizsi-nez-loni/",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506637832-9a0daef5c2e69f298ef3",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506637832-994b79fd0ddb03500ce2/",
+            "published": "2024-03-01T17:44:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Vyšší výdaje než loni ve stejném období měl stát i kvůli vyplácení valorizovaných důchodů a <span class=\"article-hl\">sociálních</span> <span class=\"article-hl\">dávek</span>. Na zvýšení se nejvíce podílely výplaty penzí (+8,7 miliardy). Do jejich inkasa se kromě loňského mimořádného navýšení promítá také letošní řádná valorizace o 1,8 %.\n\nEkonomika ČR meziročně oslabila.&hellip;",
+            "language": "cs",
+            "word_count": 760,
+            "text_relevance": 54.41211,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "1 hodina, 51 minut",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 8515,
+            "GRP": 0.09461111111111112,
+            "OTS": 0.0009461111111111112,
+            "AVE": 14090.167077993307,
+            "topic_monitor": {
+                "id": 65248,
+                "name": "Sociologie/Reformy",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 458289,
+                    "keyword": "sociální+dávka (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Sociální dávky",
+                    "display_keyword": "Sociální dávky",
+                    "is_highlight_only": false
+                },
+                {
+                    "id": 458290,
+                    "keyword": "příspěvěk+bydlení~3 (výzkum OR sociolog OR sociologie OR reforma)",
+                    "name": "Příspěvek na bydlení",
+                    "display_keyword": "Příspěvek na bydlení",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506672134,
+            "token": "a9c3ea2e0a0d7caa140f",
+            "news_source": {
+                "id": 10926,
+                "name": "denikn.cz",
+                "publisher": {
+                    "id": 698,
+                    "name": "N media a.s.",
+                    "country": "cz",
+                    "reg_no": "06781772",
+                    "street": "Spálená 97/29",
+                    "municipality": "Praha",
+                    "postal_code": "11000"
+                },
+                "category": {
+                    "id": 1,
+                    "name": "Zprávy / Politika",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://denikn.cz/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/10926.png",
+                "monthly_sessions": 2356706,
+                "monthly_ru": 764399,
+                "daily_ru": 75637,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "denikn.cz",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Na mediálním trhu došlo k nezvyklé situaci. Příchod ředitele z Mafry vydavatelství personálně propojil s PPF",
+            "url": "https://denikn.cz/1365676/na-medialnim-trhu-doslo-k-nezvykle-situaci-prichod-reditele-z-mafry-vydavatelstvi-personalne-propojil-s-ppf/",
+            "public_access_url": "https://app.mediaboard.com/article/1506672134/a9c3ea2e0a0d7caa140f?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjY3MjEzNCwidGlkIjo3MjcwNn0.2Wxc3FME8L5GO7SrkT3op_BnCqVnvwr3jphCaiXw2gs",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://denikn.cz/1365676/na-medialnim-trhu-doslo-k-nezvykle-situaci-prichod-reditele-z-mafry-vydavatelstvi-personalne-propojil-s-ppf/",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506672134-61e9fa90ad97a0f4e74c",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506672134-05b795cb6d66f098e4ec/",
+            "published": "2024-03-01T17:40:04+01:00",
+            "authors": [
+                {
+                    "id": "5DovsC7AFAANG2Su",
+                    "name": "Filip Struhárik",
+                    "country": 2,
+                    "author_type": 1,
+                    "photo_url": {
+                        "small": "https://media.mediaboard.com/author/p/15092/5DovsC7AFAANG2Su/2/",
+                        "large": "https://media.mediaboard.com/author/p/15092/5DovsC7AFAANG2Su/3/"
+                    },
+                    "is_own_author": false,
+                    "is_edited": false
+                }
+            ],
+            "section": "Ekonomika",
+            "perex": "&hellip;„Během své mediální kariéry jsem byl svědkem dramatické <span class=\"article-hl\">digitalizace</span> tištěných médií. Televizní zpravodajství není vůči podobným zásadním změnám imunní,“ říká o svém příchodu Mužík. Podle něj se i televizní zpravodajství musí přizpůsobit digitální době, pokud chce zůstat relevantní.&hellip;",
+            "language": "cs",
+            "word_count": 1632,
+            "text_relevance": 22.107933,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": false,
+            "embed_type": null,
+            "reach": 75637,
+            "GRP": 0.8404111111111111,
+            "OTS": 0.00840411111111111,
+            "AVE": 31947.59366989113,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510603,
+                    "keyword": "e-government OR digitalizace státu",
+                    "name": "",
+                    "display_keyword": "e government OR digitalizace státu",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506603984,
+            "token": "49b234147f80571901ac",
+            "news_source": {
+                "id": 6455,
+                "name": "pravdive.eu",
+                "publisher": {
+                    "id": 662,
+                    "name": "Pravdivě.eu",
+                    "country": "cz",
+                    "reg_no": "",
+                    "street": "",
+                    "municipality": "",
+                    "postal_code": ""
+                },
+                "category": {
+                    "id": 111,
+                    "name": "Potenciálně dezinformační weby",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://pravdive.eu/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/6455.png",
+                "monthly_sessions": 90322,
+                "monthly_ru": 48787,
+                "daily_ru": 3412,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "pravdive.eu",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Co bude obsahovat digitální peněženka schválená Evropským parlamentem?",
+            "url": "https://pravdive.eu/news/62818/co-bude-obsahovat-digitalni-penezenka-schvalena-evropskym-parlamentem",
+            "public_access_url": "https://app.mediaboard.com/article/1506603984/49b234147f80571901ac?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjYwMzk4NCwidGlkIjo3MjcwNn0.7l0KBJBEz1OYN14e_VETjzYa4WWRNOKRKQgoPhkSmEQ",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://pravdive.eu/news/62818/co-bude-obsahovat-digitalni-penezenka-schvalena-evropskym-parlamentem",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506603984-57d1338a155c68390087",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506603984-2715f96895f6d23f739f/",
+            "published": "2024-03-01T17:32:21.560012+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;„Tato iniciativa <span class=\"article-hl\">digitalizace</span> vztahu mezi občany a <span class=\"article-hl\">státem</span> by odstranila čas na přepážkách, nekonečné fronty a stohy dokumentů, které občané potřebují při využívání různých služeb, ať už veřejných (daně, cla, nemocnice…) nebo soukromých (banky, pojišťovny…).“\n\n„Digitální peněženka bude fungovat jako aplikace v telefonu, do které můžeme ukládat dokumenty a certifikáty&hellip;",
+            "language": "cs",
+            "word_count": 628,
+            "text_relevance": 21.28974,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "1 hodina, 51 minut",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 3412,
+            "GRP": 0.03791111111111111,
+            "OTS": 0.0003791111111111111,
+            "AVE": 9549.46413254016,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510603,
+                    "keyword": "e-government OR digitalizace státu",
+                    "name": "",
+                    "display_keyword": "e government OR digitalizace státu",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        },
+        {
+            "article_id": 1506593957,
+            "token": "15383c07412428d52a8c",
+            "news_source": {
+                "id": 2834,
+                "name": "roklen24.cz",
+                "publisher": {
+                    "id": 399,
+                    "name": "Roklen Holding a.s.",
+                    "country": "cz",
+                    "reg_no": "06083269",
+                    "street": "Václavské náměstí 838/9",
+                    "municipality": "Praha",
+                    "postal_code": "11000"
+                },
+                "category": {
+                    "id": 3,
+                    "name": "Ekonomika / Finance / Právo",
+                    "category_type_id": 1,
+                    "category_type": {
+                        "id": 1,
+                        "text": "Online",
+                        "shorttext": "Online",
+                        "label": "Online",
+                        "color": "#13CDF0",
+                        "fill_color": "#9FEAF8"
+                    }
+                },
+                "country": 1,
+                "country_code": "cz",
+                "language": "cs",
+                "url": "https://roklen24.cz/",
+                "favicon_url": "https://media.mediaboard.com/media/news_favicons/2834.png",
+                "monthly_sessions": 96709,
+                "monthly_ru": 52237,
+                "daily_ru": 3653,
+                "publication_frequency": null,
+                "press_amount": null,
+                "readership": null,
+                "sold_amount": null,
+                "print_ad_price_full_page": null,
+                "listenership": null
+            },
+            "humanized_source_name": "roklen24.cz",
+            "identical_articles": [],
+            "article_type_id": 0,
+            "article_type": {
+                "id": 0,
+                "text": "Článek",
+                "color": null
+            },
+            "title": "Ekonomický komentář ČBA: Tuzemská ekonomika vzrostla v 4q23 o 0,2 % qoq dle očekávání, za celý rok poklesla o 0,4 %",
+            "url": "https://roklen24.cz/?quick_news=ekonomicky-komentar-cba-tuzemska-ekonomika-vzrostla-v-4q23-o-02-qoq-dle-ocekavani-za-cely-rok-poklesla-o-04",
+            "public_access_url": "https://app.mediaboard.com/article/1506593957/15383c07412428d52a8c?topic_monitor=72706&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3MTE5MTM1NzksIndpZCI6MTUwOTIsImFpZCI6MTUwNjU5Mzk1NywidGlkIjo3MjcwNn0.S3YhNGJ3YJj_ALPjUAJF03jCzqdRdJxHt-tCOtYTXT0",
+            "pdf_url": "",
+            "proxy_url": "https://proxy.mntr.media/?url=https://roklen24.cz/?quick_news=ekonomicky-komentar-cba-tuzemska-ekonomika-vzrostla-v-4q23-o-02-qoq-dle-ocekavani-za-cely-rok-poklesla-o-04",
+            "small_image_url": "https://s3.eu-central-1.amazonaws.com/public.monitora.cz/media/image_preview/1506593957-601542b27a777736acc8",
+            "big_image_url": "https://media.mediaboard.com/article/image/15092/1506593957-8463ba5c41684590eec1/",
+            "published": "2024-03-01T17:28:00+01:00",
+            "authors": [],
+            "section": "",
+            "perex": "&hellip;Mezičtvrtletní <span class=\"article-hl\">růst</span> <span class=\"article-hl\">ekonomiky</span> byl tažen zejména čistými exporty, a to nejen růstem vývozu o 2,2 % qoq, ale také poklesem dovozu o 2,4 %. Také spotřeba domácností vzrostla o 0,5 % zatímco v předešlých čtvrtletích dva roky v kuse klesala s výjimkou 2. čtvrtletí minulého roku.&hellip;",
+            "language": "cs",
+            "word_count": 537,
+            "text_relevance": 17.066994,
+            "social_network_profile": null,
+            "social_shares": null,
+            "article_mentions_count": 0,
+            "influence_score": null,
+            "engagement_rate": null,
+            "social_interactions": null,
+            "duration": null,
+            "cpp_second": null,
+            "area": null,
+            "print_ad_price_full_page": 0,
+            "frontpage_promo": "1 hodina, 51 minut",
+            "publication": {
+                "pages": [],
+                "all_pages": [],
+                "cover_page": null,
+                "imprint_page": null,
+                "prev_page": null,
+                "next_page": null,
+                "issue": null
+            },
+            "sentiment_id": 2,
+            "sentiment": {
+                "id": 2,
+                "text": "Negativní",
+                "color": "#EB5E4B"
+            },
+            "is_paywalled": false,
+            "is_forced_to_email_report": false,
+            "has_transcript": true,
+            "is_stt_transcript": false,
+            "is_ocr_transcript": false,
+            "can_summarize": true,
+            "embed_type": null,
+            "reach": 3653,
+            "GRP": 0.04058888888888889,
+            "OTS": 0.0004058888888888889,
+            "AVE": 9847.611273881324,
+            "topic_monitor": {
+                "id": 72706,
+                "name": "Petr Vilím: Témata",
+                "image_url": ""
+            },
+            "keyword_monitors": [
+                {
+                    "id": 510594,
+                    "keyword": "růst+ekonomiky OR prorůstová+politika OR \"!NERV\"",
+                    "name": "",
+                    "display_keyword": "růst ekonomiky OR prorůstová politika OR NERV",
+                    "is_highlight_only": false
+                }
+            ],
+            "article_tags": [],
+            "note": "",
+            "ave_weight": 1,
+            "workspace_article": null,
+            "admin_url": "",
+            "pdf_parse_url": "",
+            "edit_article_url": "",
+            "zoidberg_media_url": ""
+        }
+    ],
+    "feed_chart": {
+        "lower_date": "2024-02-01",
+        "upper_date": "2024-03-01",
+        "data": [
+            {
+                "date": "2024-02-01",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 153
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 37
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 35
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 42
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 16
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-02",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 144
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 25
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 23
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 30
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 8
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-03",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 85
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 6
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 14
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 29
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 7
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-04",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 82
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 1
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 19
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 16
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 6
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-05",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 306
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 24
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 67
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 62
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 26
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-06",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 204
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 40
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 24
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 29
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 20
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-07",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 223
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 17
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 37
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 35
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 19
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-08",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 188
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 45
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 19
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 62
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 27
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-09",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 167
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 22
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 13
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 42
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 6
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-10",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 73
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 20
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 16
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 22
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 1
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-11",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 76
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 0
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 20
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 11
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 1
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-12",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 203
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 31
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 27
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 13
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 20
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-13",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 168
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 34
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 30
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 19
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 10
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-14",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 190
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 15
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 26
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 50
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 11
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-15",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 162
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 20
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 19
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 43
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 18
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-16",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 104
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 18
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 10
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 21
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 9
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-17",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 45
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 6
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 15
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 14
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 5
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-18",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 54
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 0
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 29
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 15
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 2
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-19",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 151
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 25
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 15
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 11
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 22
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-20",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 186
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 25
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 33
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 32
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 13
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-21",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 174
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 17
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 27
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 39
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 19
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-22",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 138
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 42
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 25
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 42
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 6
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-23",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 136
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 19
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 14
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 24
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 20
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-24",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 54
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 25
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 10
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 43
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 5
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-25",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 64
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 0
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 27
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 20
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 3
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-26",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 166
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 28
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 39
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 48
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 10
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-27",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 138
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 16
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 15
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 22
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 8
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-28",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 153
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 17
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 9
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 24
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 14
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-02-29",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 204
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 27
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 32
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 47
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 13
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            },
+            {
+                "date": "2024-03-01",
+                "data": [
+                    {
+                        "category_type": 1,
+                        "count": 207
+                    },
+                    {
+                        "category_type": 2,
+                        "count": 21
+                    },
+                    {
+                        "category_type": 4,
+                        "count": 32
+                    },
+                    {
+                        "category_type": 5,
+                        "count": 18
+                    },
+                    {
+                        "category_type": 8,
+                        "count": 7
+                    },
+                    {
+                        "category_type": 7,
+                        "count": 0
+                    }
+                ]
+            }
+        ],
+        "total": {
+            "count": 7019
+        },
+        "mediatype_promo": [
+            {
+                "category_type": 1,
+                "is_active": true,
+                "is_filtered": false,
+                "count": 4398
+            },
+            {
+                "category_type": 2,
+                "is_active": true,
+                "is_filtered": false,
+                "count": 623
+            },
+            {
+                "category_type": 4,
+                "is_active": true,
+                "is_filtered": false,
+                "count": 721
+            },
+            {
+                "category_type": 5,
+                "is_active": true,
+                "is_filtered": false,
+                "count": 925
+            },
+            {
+                "category_type": 8,
+                "is_active": true,
+                "is_filtered": false,
+                "count": 352
+            },
+            {
+                "category_type": 6,
+                "is_active": false,
+                "is_filtered": false,
+                "count": 125
+            },
+            {
+                "category_type": 7,
+                "is_active": true,
+                "is_filtered": false,
+                "count": 0
+            },
+            {
+                "country": 2,
+                "is_active": false,
+                "is_filtered": false,
+                "count": 387
+            }
+        ]
+    },
+    "feed_hash": "hZCoC",
+    "feed_type": 1,
+    "filters": {},
+    "is_chronological": true,
+    "has_next": true,
+    "is_dirty": false,
+    "is_limit_exceeded": false
+}
