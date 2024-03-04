@@ -8,20 +8,70 @@ library(treemapify)
 library(ggtext) 
 library(patchwork)
 
-# Load data
+### Simple txt. version, where we take network packets one by one ----------------------------------
+# Load txt exports 
 
 dataLocation <- here("MonitoringParser", "ticheVinoADane.txt")
 dataLocation2 <- here("MonitoringParser", "vinoAndDanAndPAQ.txt")
-
 data <- jsonlite::fromJSON(dataLocation)
 data2 <- jsonlite::fromJSON(dataLocation2)
 
 # We will now select data which is a dataframe under feed_chart
-
 dataSmall <- data$feed_chart$data
 dataSmall2 <- data2$feed_chart$data %>% 
   filter(date != "2024-03-01") # Keep series for same time period
 
+### More advanced verersion we will be loading directly form a HAR file and be harvesting ----------
+# way more data
+
+harPath <- here("MonitoringParser", "app.mediaboard.com.har")
+
+# Load the HAR file
+
+har <- jsonlite::fromJSON(harPath)
+onlyResponse <- har$log$entries$response
+
+onlyJson <- onlyResponse %>% 
+  filter(content$mimeType == "application/json")
+
+onlyFeed <- onlyJson %>% 
+  filter(content$size > 1000 & is.na(content$encoding)) %>% 
+  unnest(content) %>% 
+  select(text)
+
+parsedText <- lapply(onlyFeed$text, jsonlite::fromJSON) %>% 
+  select()
+
+combinedStories <- map_dfr(parsedText, ~ .x$feed_stories) %>% 
+  unnest(cols = c(news_source, article_type), names_sep = "_", names_repair = "universal") %>% 
+  unnest(cols = c(news_source_publisher, news_source_category), names_sep = "_", names_repair = "universal") %>% 
+  unnest(cols = c(news_source_category_category_type), names_sep = "_", names_repair = "universal") %>% 
+  janitor::clean_names()
+
+reducedStories <- combinedStories %>% 
+  select(news_source_name, news_source_publisher_name, news_source_category_name,  
+         news_source_category_category_type_id_15, news_source_category_category_type_text, 
+         news_source_url, news_source_monthly_sessions:humanized_source_name, article_type_text, 
+         title, url, published, authors) %>% 
+  mutate(
+    published = lubridate::ymd_hms(published),
+    article_type_text = as.factor(article_type_text),
+    news_source_category_category_type_text = as.factor(news_source_category_category_type_text),
+    news_source_category_name = as.factor(news_source_category_name),
+    news_source_publisher_name = if_else(is.na(news_source_publisher_name), "Unknown", news_source_publisher_name),
+    news_source_publisher_name = as.factor(news_source_publisher_name),
+    news_source_name = as.factor(news_source_name), 
+    authors = map_chr(authors, function(author) { # It just works, If_else wont work
+      if(is.data.frame(author) && "name" %in% names(author)) {
+        paste(author$name, collapse = ", ")
+      } else {
+        NA_character_}})
+    )
+
+# Advamced data are ready for plotting, yay!
+
+
+### Data Visualization -----------------------------------------------------------------------------
 # Create a tibble to join with our future data consisting of 3 columns:  
 # category_type, color, and label
 
@@ -128,9 +178,9 @@ PropPlot <- dataUnnested %>%
   group_by(id, date) %>% 
   summarise(count = sum(count)) %>%
   ggplot(aes(x = date, y = count, fill = id, alpha = if_else(id == "PaqMentioned", 1, 0))) + # Alpha is buggy
-  ggstream::geom_stream(type = 'proportion', bw = 0.3, n_grid = 1000, sorting = 'onset', 
+  ggstream::geom_stream(type = 'proportion', bw = 0.3, n_grid = 1000, sorting = 'inside_out', 
                         geom = "contour", color = "black", size = 1) +
-  ggstream::geom_stream(type = 'proportion', bw = 0.3, n_grid = 1000, sorting = 'onset') +
+  ggstream::geom_stream(type = 'proportion', bw = 0.3, n_grid = 1000, sorting = 'inside_out') +
   scale_fill_manual(values = setNames(PaqScale$PaqColors, PaqScale$PaqIndex)) +
   scale_y_continuous(breaks = c(0, .5, 1), labels = c("100 %", "50 %", "0 %")) +
   scale_alpha(guide = 'none') +
@@ -142,6 +192,8 @@ PropPlot <- dataUnnested %>%
     # legend.title = element_markdown(family = "Inter Regular")) +
   labs(x = "Datum", y = "Podíl zmínek o PAQ", fill = "Zmínka o <span style = 'color:#063E78;'><b>PAQ</b></span>?")
 
+?geom_stream()
+
 # Building the composite plot form our three existing plots
 
 compositePlot <- annotatedStreamPlot + 
@@ -149,7 +201,7 @@ compositePlot <- annotatedStreamPlot +
   plot_layout(widths = 1, heights = c(4, 1), guides = 'collect', axes = 'collect') &
   theme(
     legend.position = 'bottom',
-    legend.title = element_markdown(family = "Inter Regular"), 
+    legend.title = element_markdown(family = "Inter"), 
     legend.key = element_rect(colour = "black", linewidth = .5L)
   ) 
 
@@ -161,12 +213,38 @@ compositePlot
 
 ggsave(plot = compositePlot, filename = here("MonitoringParser.pdf"), width = 21, height = 29.7, units = "cm")
 
+install.packages("extrafont")
+library(extrafont)
+loadfonts(device = "win")
 
+# Working with data2 -------------------------------------------------------------------------------
 
+reducedStories %>%
+  group_by(news_source_category_category_type_text, news_source_publisher_name, humanized_source_name) %>%
+  summarise(count = n()) %>%
+  ggplot(
+    aes(
+      area = count, 
+      fill = news_source_category_category_type_text, 
+      subgroup = news_source_category_category_type_text, 
+      subgroup2 = news_source_publisher_name, 
+      label = paste0(humanized_source_name, "\n n = ", count)
+    )) + 
+  treemapify::geom_treemap(size = 2, color = "white", layout = "squarified") +
+  treemapify::geom_treemap_text(colour = "white", place = "centre", layout = "squarified", 
+                                size = 14,  min.size = 8, reflow = TRUE) +
+  treemapify::geom_treemap_subgroup_border(size = 8, color = "white", layout = "squarified") +
+  treemapify::geom_treemap_subgroup2_border(size = 5, color = "white", layout = "squarified") +
+  # scale_fill_manual(values = setNames(dataUnnested$color, dataUnnested$label)) +
+  scale_fill_discrete() + 
+  paqr::theme_paq() 
+  # theme(legend.position = 'none')
 
+?geom_treemap
 
+colnames(reducedStories)
 
-
+unique(reducedStories$news_source_publisher_name)
 
 
 
