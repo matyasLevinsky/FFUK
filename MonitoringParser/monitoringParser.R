@@ -39,8 +39,7 @@ onlyFeed <- onlyJson %>%
   unnest(content) %>% 
   select(text)
 
-parsedText <- lapply(onlyFeed$text, jsonlite::fromJSON) %>% 
-  select()
+parsedText <- lapply(onlyFeed$text, jsonlite::fromJSON) 
 
 combinedStories <- map_dfr(parsedText, ~ .x$feed_stories) %>% 
   unnest(cols = c(news_source, article_type), names_sep = "_", names_repair = "universal") %>% 
@@ -192,8 +191,6 @@ PropPlot <- dataUnnested %>%
     # legend.title = element_markdown(family = "Inter Regular")) +
   labs(x = "Datum", y = "Podíl zmínek o PAQ", fill = "Zmínka o <span style = 'color:#063E78;'><b>PAQ</b></span>?")
 
-?geom_stream()
-
 # Building the composite plot form our three existing plots
 
 compositePlot <- annotatedStreamPlot + 
@@ -206,46 +203,58 @@ compositePlot <- annotatedStreamPlot +
   ) 
 
 compositePlot
-
-?theme
   
 # Save as a high quality pdf 
 
-ggsave(plot = compositePlot, filename = here("MonitoringParser.pdf"), width = 21, height = 29.7, units = "cm")
+# ggsave(plot = compositePlot, filename = here("MonitoringParser.pdf"), width = 21, height = 29.7, units = "cm")
 
-install.packages("extrafont")
+# install.packages("extrafont")
 library(extrafont)
-loadfonts(device = "win")
+# loadfonts(device = "win")
 
 # Working with data2 -------------------------------------------------------------------------------
 
-reducedStories %>%
+# palette genearation
+library(colorspace)  
+library(scales)
+
+# number of palettes needed
+n <- length(unique(reducedStories$news_source_category_category_type_text))
+hues <- c(300, 50, 250, 100, 200, 150)
+
+# now calculate the colors for each data point
+addedColor <- reducedStories %>%
   group_by(news_source_category_category_type_text, news_source_publisher_name, humanized_source_name) %>%
   summarise(count = n()) %>%
+  ungroup() %>% 
+  filter(news_source_category_category_type_text != "Sociální média")
+
+?sequential_hcl
+?gradient_n_pal()
+
+addedColor %>%
   ggplot(
-    aes(
-      area = count, 
+    aes(area = count,  
       fill = news_source_category_category_type_text, 
       subgroup = news_source_category_category_type_text, 
       subgroup2 = news_source_publisher_name, 
-      label = paste0(humanized_source_name, "\n n = ", count)
-    )) + 
-  treemapify::geom_treemap(size = 2, color = "white", layout = "squarified") +
-  treemapify::geom_treemap_text(colour = "white", place = "centre", layout = "squarified", 
-                                size = 14,  min.size = 8, reflow = TRUE) +
-  treemapify::geom_treemap_subgroup_border(size = 8, color = "white", layout = "squarified") +
-  treemapify::geom_treemap_subgroup2_border(size = 5, color = "white", layout = "squarified") +
-  # scale_fill_manual(values = setNames(dataUnnested$color, dataUnnested$label)) +
-  scale_fill_discrete() + 
-  paqr::theme_paq() 
-  # theme(legend.position = 'none')
+      label = paste0(humanized_source_name, ", n:\u00A0", count))) + 
+  treemapify::geom_treemap() + # Reduce range of alpha here
+  treemapify::geom_treemap(colour = "white", 
+    aes(fill = "black", alpha = rescale(as.numeric(news_source_publisher_name), to = c(.999, 1)))) +
+  treemapify::geom_treemap_text(colour = "white", place = "centre", size = 14,  min.size = 8, reflow = TRUE) +
+  treemapify::geom_treemap_subgroup_border(colour = "white",size = 8) +
+  treemapify::geom_treemap_subgroup2_border(colour = "white",size = 4) + 
+  treemapify::geom_treemap_subgroup_text(place = "center", alpha = .5, color = "#063E78", grow = TRUE) + 
+  paqr::theme_paq() +
+  theme(legend.position = "none")
 
-?geom_treemap
+as.numeric(addedColor$news_source_publisher_name)
 
-colnames(reducedStories)
-
-unique(reducedStories$news_source_publisher_name)
+?geom_treemap_subgroup_text()
 
 
+alphaTib <- as.numeric(addedColor$news_source_publisher_name)
 
+rescale(as.numeric(addedColor$news_source_publisher_name), to = c(.8, 1))
 
