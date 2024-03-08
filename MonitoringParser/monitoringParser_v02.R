@@ -11,6 +11,7 @@ library(patchwork)
 ### More advanced version we will be loading directly form a HAR file and be harvesting ----------
 # way more data
 
+
 harPathsSelected <- here("MonitoringParser", "VinoDanPAQProkopNERV.har")
 nameGenerator <- paste0("VinoDanPart", 1:5, ".har")
 harPathsUnselected <- here("MonitoringParser", nameGenerator)
@@ -35,10 +36,11 @@ extractParsedHar <- function(harPath) {
     janitor::clean_names()
 
   reducedStories <- combinedStories %>% 
-    select(news_source_name, news_source_publisher_name, news_source_category_name,  
-           news_source_category_category_type_id_15, news_source_category_category_type_text, 
-           news_source_url, news_source_monthly_sessions:humanized_source_name, article_type_text, 
-           title, url, published, authors) %>% 
+    select(
+      news_source_name, news_source_publisher_name, news_source_category_name,  
+      news_source_category_category_type_id_15, news_source_category_category_type_text, 
+      news_source_url, news_source_monthly_sessions:humanized_source_name, article_type_text, 
+      title, url, published, authors) %>% 
     mutate(
       published = lubridate::ymd_hms(published),
       news_source_publisher_name = if_else(is.na(news_source_publisher_name), "Unknown", news_source_publisher_name),
@@ -55,13 +57,13 @@ dataUnmentioned <- map(harPathsUnselected, extractParsedHar)
 dataUnmentionedTib <- bind_rows(dataUnmentioned) %>% 
   distinct()
 
-# compared <- dataUnmentionedTib %>% 
-#   mutate(published = lubridate::as_date(published)) %>% 
-#   group_by(published, news_source_category_category_type_text) %>% 
-#   summarise(count = n()) %>% 
+# compared <- dataUnmentionedTib %>%
+#   mutate(published = lubridate::as_date(published)) %>%
+#   group_by(published, news_source_category_category_type_text) %>%
+#   summarise(count = n()) %>%
 #   pivot_wider(names_from = "news_source_category_category_type_text", values_from = "count")
 # 
-# comparison <- read.csv(here("MonitoringParser", "comparison.csv")) %>% 
+# comparison <- read.csv(here("MonitoringParser", "comparison.csv")) %>%
 #   filter(Online > 0 | Tisk > 0 | Televize > 0 | Rozhlas >  0 | Podcasty > 0 | Sociální.média > 0)
 
 combinedDf <- bind_rows(PAQMentioned = dataMention, PAQNotMentioned = dataUnmentionedTib, .id = "Mentions") %>% 
@@ -69,8 +71,7 @@ combinedDf <- bind_rows(PAQMentioned = dataMention, PAQNotMentioned = dataUnment
   group_by(pick(-Mentions)) %>% 
   filter(row_number() == 1) %>% # Getting rid of duplicates
   ungroup() %>% 
-  mutate(date = as_date(published)) %>% 
-  filter(date >= "2022-07-01" & date <= "2023-12-31")
+  mutate(date = as_date(published)) 
 
 ### Data Visualization -----------------------------------------------------------------------------
 # Stream chart
@@ -80,10 +81,13 @@ StreamPlot <- combinedDf %>%
   group_by(Mentions, date) %>% 
   summarise(count = n()) %>% 
   ggplot(aes(x = date, y = count, fill = Mentions)) +
-  ggstream::geom_stream(type = 'ridge', geom = "contour", color = "black", linewidth = 1, bw = 0.2, n_grid = 2000, sorting = 'inside_out') +
-  ggstream::geom_stream(type = 'ridge', bw = 0.2, n_grid = 2000, sorting = 'inside_out') 
+  ggstream::geom_stream(type = 'ridge', geom = "contour", color = "black", linewidth = 1, bw = 0.35, n_grid = 2000, sorting = 'inside_out') +
+  ggstream::geom_stream(type = 'ridge', bw = 0.35, n_grid = 2000, sorting = 'inside_out') 
 
 StreamPlot
+
+annotatedPlot <- 
+  
 
 # We will now create a proportional streamplot that shows the proportion of mentions of PAQ
 
